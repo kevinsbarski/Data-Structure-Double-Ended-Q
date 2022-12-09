@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args){
 
         MyDeque<Integer> queue = new MyDeque<>();
-        for(int i = 1; i <= 10; i++) queue.addLast(Node.createNode());
+        for(int i = 1; i <= 10; i++) queue.addLast(Node.createNode());//delete the heaara leater
 
 
         System.out.println(queue);
